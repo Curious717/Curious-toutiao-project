@@ -1,0 +1,16 @@
+# Web 框架 & ASGI 服务器
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+
+# 数据库 ORM & 异步 MySQL 驱动
+sqlalchemy>=2.0.0
+aiomysql>=0.2.0
+
+# 数据校验
+pydantic>=2.0.0
+
+# 密码加密（bcrypt）
+passlib[bcrypt]>=1.7.4
+
+# Redis 异步客户端
+redis>=5.0.0
